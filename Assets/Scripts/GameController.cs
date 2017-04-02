@@ -36,7 +36,7 @@ public class GameController : MonoBehaviour {
                     int random = UnityEngine.Random.Range(1, 10);
                     if(random <= 2)
                     {
-                        Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
+                        Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(-spawnValues.x, spawnValues.x), UnityEngine.Random.Range(spawnValues.y-10, spawnValues.y), spawnValues.z);
                         Quaternion spawnRotate = Quaternion.identity;
                         Instantiate(hazard, spawnPos, spawnRotate);
                     }
@@ -46,7 +46,7 @@ public class GameController : MonoBehaviour {
                         if (waveCount >= 2) x = waveCount;
                         for (int j = 0; j < x; j++)
                         {
-                            Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
+                            Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(-spawnValues.x, spawnValues.x), UnityEngine.Random.Range(spawnValues.y - 10, spawnValues.y), spawnValues.z);
                             Quaternion spawnRotate = Quaternion.identity;
                             Instantiate(hazard, spawnPos, spawnRotate);
                         }
@@ -55,7 +55,7 @@ public class GameController : MonoBehaviour {
                     {
                         for (int j = 0; j < waveCount; j++)
                         {
-                            Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
+                            Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(-spawnValues.x, spawnValues.x), UnityEngine.Random.Range(spawnValues.y - 10, spawnValues.y), spawnValues.z);
                             Quaternion spawnRotate = Quaternion.identity;
                             Instantiate(hazard, spawnPos, spawnRotate);
                         }
@@ -72,7 +72,7 @@ public class GameController : MonoBehaviour {
                     int random = UnityEngine.Random.Range(1, 10);
                     if (random <= 2)
                     {
-                        Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
+                        Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(-spawnValues.x, spawnValues.x), UnityEngine.Random.Range(spawnValues.y - 10, spawnValues.y), spawnValues.z);
                         Quaternion spawnRotate = Quaternion.identity;
                         Instantiate(hazard, spawnPos, spawnRotate);
                     }
@@ -80,7 +80,7 @@ public class GameController : MonoBehaviour {
                     {
                         for (int j = 0; j < 2; j++)
                         {
-                            Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
+                            Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(-spawnValues.x, spawnValues.x), UnityEngine.Random.Range(spawnValues.y - 10, spawnValues.y), spawnValues.z);
                             Quaternion spawnRotate = Quaternion.identity;
                             Instantiate(hazard, spawnPos, spawnRotate);
                         }
@@ -89,7 +89,7 @@ public class GameController : MonoBehaviour {
                     {
                         for (int j = 0; j < waveCount; j++)
                         {
-                            Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
+                            Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(-spawnValues.x, spawnValues.x), UnityEngine.Random.Range(spawnValues.y - 10, spawnValues.y), spawnValues.z);
                             Quaternion spawnRotate = Quaternion.identity;
                             Instantiate(hazard, spawnPos, spawnRotate);
                         }
