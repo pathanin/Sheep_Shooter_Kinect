@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sheep Shooter - Kinect", "Assembly-CSharp.csproj", "{5A6FF253-A65F-DB20-CBE7-704C24BE290C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sheep Shooter - Kinect", "Assembly-CSharp-Editor.csproj", "{D1C85BAF-4712-1ABB-53E2-6BFA81F2462F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A6FF253-A65F-DB20-CBE7-704C24BE290C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6FF253-A65F-DB20-CBE7-704C24BE290C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6FF253-A65F-DB20-CBE7-704C24BE290C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6FF253-A65F-DB20-CBE7-704C24BE290C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C85BAF-4712-1ABB-53E2-6BFA81F2462F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C85BAF-4712-1ABB-53E2-6BFA81F2462F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C85BAF-4712-1ABB-53E2-6BFA81F2462F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C85BAF-4712-1ABB-53E2-6BFA81F2462F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
